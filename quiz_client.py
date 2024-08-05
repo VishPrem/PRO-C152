@@ -18,6 +18,7 @@ def receive():
         except:
             print("An error has occured.")
             client.close()
+            break
 
 def write():
     while True:
